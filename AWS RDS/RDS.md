@@ -362,5 +362,19 @@ terraform validate
 terraform plan
 terraform apply
 ```
+bash
+## **git** clone and declone commands
+### Delete the existing folder and re-clone
+```bash
+rmdir /S /Q terraform_handson
+git clone https://github.com/ragh945/terraform_handson.
+cd reponame
 
+# Remove the file
+git rm "AWS RDS/variables.tf"
+
+# Commit and push
+git commit -m "Remove variables.tf"
+git push origin main
+```
 
