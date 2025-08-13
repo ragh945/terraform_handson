@@ -19,14 +19,15 @@ variable "AMIS" {
     }
 }
 
-variable "PATH_TO_PRIVATE_KEY" {
-  default = "levelup_key"
+variable "PATH_TO_PUBLIC_KEY" {
+  default = "D:/terraform_keys/level_up_key.pub"
 }
 
-variable "PATH_TO_PUBLIC_KEY" {
-  default = "levelup_key.pub"
+variable "PATH_TO_PRIVATE_KEY" {
+  default = "D:/terraform_keys/level_up_key.pem"
 }
 
 variable "INSTANCE_USERNAME" {
   default = "ubuntu"
+
 }
